@@ -6,3 +6,8 @@ Velodyne HDL-64E data is available at https://pdf.directindustry.com/pdf/velodyn
 Deterministic Grid Sampling with Number of Beams = 60, Horizontal resolution = 0.1 degrees:
 
 ![alt text](https://github.com/siddharth130500/DGR/blob/main/60_01.png?raw=true)
+
+
+Deterministic Grid Sampling with Number of Beams = 40, Horizontal resolution = 0.5 degrees:
+
+![alt text](https://github.com/siddharth130500/DGR/blob/main/40_05.png?raw=true)
