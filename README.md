@@ -20,3 +20,6 @@ Number of Beams = 16, Horizontal resolution = 0.8 degrees, Range for DGR: 10m (L
 ![alt text](https://github.com/siddharth130500/DGR/blob/main/comp.png?raw=true)
 
 
+![alt](https://github.com/siddharth130500/DGR/blob/main/dgr.png?raw=true)
+
+
