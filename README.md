@@ -1,7 +1,7 @@
 # DGR
 Deterministic grid-based resampling as implemented in the paper "Improving LiDAR 3D Object Detection via Range-based Point Cloud Density Optimization" (https://arxiv.org/abs/2306.05663). The LiDAR point cloud from Velodyne is resampled by specifying the new vertical and horizontal angular resolutions. 
 
-The code is implemented in both Python and optimized CUDA versions with multithreading. To run the Python code, run `python dgr.py`. For CUDA version, compile using `nvcc DGR_optimized.cu -o DGR_optimized'. Then run `./DGR_optimized`.
+The code is implemented in both Python and optimized CUDA versions with multithreading. To run the Python code, run `python DGR.py`. For CUDA version, compile using `nvcc DGR_optimized.cu -o DGR_optimized'. Then run `./DGR_optimized`.
 
 Time comparison between the versions:
 * Python version: 62.03323197364807 seconds
