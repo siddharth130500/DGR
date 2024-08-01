@@ -3,7 +3,7 @@ Deterministic grid-based resampling as implemented in the paper "Improving LiDAR
 
 The code is implemented in both Python and optimized CUDA versions with multithreading. To run the Python code, run `python DGR.py`. For CUDA version, compile using `nvcc DGR_optimized.cu -o DGR_optimized`. Then run `./DGR_optimized`.
 
-Time comparison between the versions:
+Time comparison between the versions (for a sample point cloud):
 * Python version: 62.03323197364807 seconds
 * CUDA version: 0.6060945987701416 seconds
 
