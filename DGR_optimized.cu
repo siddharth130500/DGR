@@ -209,7 +209,7 @@ int main() {
     thrust::device_vector<float> d_Gdh(Ndh + 1);
     thrust::device_vector<float> d_Pi((Nv + 1) * 4 * num_points);
     thrust::device_vector<float> d_Pi_star(num_points * 4);
-    thrust::device_vector<int> d_angle_set(Nv * Ndh, 0);
+    thrust::device_vector<int> d_angle_set(Ndv * Ndh, 0);
     thrust::device_vector<int> d_Pi_counts(Nv + 1 + 1, 0);  // +1 for output count
 
 
